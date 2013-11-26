@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/src/ClientFactory.o \
+	${OBJECTDIR}/src/ServerImp.o \
 	${OBJECTDIR}/src/ClientFactoryImp.o
 
 
@@ -69,6 +70,11 @@ ${OBJECTDIR}/src/ClientFactory.o: src/ClientFactory.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF $@.d -o ${OBJECTDIR}/src/ClientFactory.o src/ClientFactory.cpp
+
+${OBJECTDIR}/src/ServerImp.o: src/ServerImp.cpp 
+	${MKDIR} -p ${OBJECTDIR}/src
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF $@.d -o ${OBJECTDIR}/src/ServerImp.o src/ServerImp.cpp
 
 ${OBJECTDIR}/src/ClientFactoryImp.o: src/ClientFactoryImp.cpp 
 	${MKDIR} -p ${OBJECTDIR}/src

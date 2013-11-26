@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles" displayName="include" projectFiles="true">
       <itemPath>include/ClientFactory.hpp</itemPath>
       <itemPath>include/Platform.hpp</itemPath>
-      <itemPath>include/ServerCore.hpp</itemPath>
+      <itemPath>include/Server.hpp</itemPath>
       <itemPath>include/ServerOption.hpp</itemPath>
       <itemPath>include/Singleton.hpp</itemPath>
     </logicalFolder>
@@ -14,6 +14,8 @@
       <itemPath>src/ClientFactory.cpp</itemPath>
       <itemPath>src/ClientFactoryImp.cpp</itemPath>
       <itemPath>src/ClientFactoryImp.hpp</itemPath>
+      <itemPath>src/ServerImp.cpp</itemPath>
+      <itemPath>src/ServerImp.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"

@@ -1,8 +1,11 @@
-/* 
- * File:   ClientFactoryImp.hpp
- * Author: cylonspy
+//-*- C++ header -*-
+/**
+ * Created time : 2013年11月19日, 上午11:24
+ * File         : ClientFactoryImp.hpp
+ * Author       : GNUnix <Kingbug2010@gmail.com>
+ * Description  :
  *
- * Created on 2013年11月19日, 上午11:24
+ * <Change_list>
  */
 
 #ifndef CLIENTFACTORYIMP_HPP
