@@ -1,4 +1,4 @@
 ServerCore
 ==========
 
-a  C++ Static Library
+a  C++ Static Network Library for server programmer
