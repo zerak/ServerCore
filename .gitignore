@@ -12,6 +12,9 @@
 *.la
 *.a
 
+# local env
+*.inc
+
 # Project Compile Directory
 /build
 /dist
