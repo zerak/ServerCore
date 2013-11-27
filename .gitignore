@@ -13,7 +13,7 @@
 *.a
 
 # local env
-*.inc
+*.dia~
 
 # Project Compile Directory
 /build
